@@ -15,6 +15,13 @@
 		25D28D6815AA4EC000617B84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D28D6715AA4EC000617B84 /* AppDelegate.m */; };
 		25D28D6B15AA4EC000617B84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D28D6A15AA4EC000617B84 /* ViewController.m */; };
 		25D28D6E15AA4EC000617B84 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D28D6C15AA4EC000617B84 /* ViewController.xib */; };
+		25D28D8E15AA4F9000617B84 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D28D8615AA4F9000617B84 /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25D28D8F15AA4F9000617B84 /* PullToRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D28D8815AA4F9000617B84 /* PullToRefreshTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25D28D9015AA4F9000617B84 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D28D8A15AA4F9000617B84 /* blackArrow.png */; };
+		25D28D9115AA4F9000617B84 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D28D8B15AA4F9000617B84 /* blueArrow.png */; };
+		25D28D9215AA4F9000617B84 /* blueArrow_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D28D8C15AA4F9000617B84 /* blueArrow_new.png */; };
+		25D28D9315AA4F9000617B84 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D28D8D15AA4F9000617B84 /* whiteArrow.png */; };
+		25D28D9715AA501200617B84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D28D9615AA501200617B84 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,24 @@
 		25D28D5715AA4EC000617B84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25D28D5915AA4EC000617B84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25D28D5B15AA4EC000617B84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		25D28D5F15AA4EC000617B84 /* DDTableViewPullRefresh-Info.plist */ = {isa = PBXFileReference; path = "DDTableViewPullRefresh-Info.plist"; sourceTree = "<group>"; };
+		25D28D5F15AA4EC000617B84 /* DDTableViewPullRefresh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDTableViewPullRefresh-Info.plist"; sourceTree = "<group>"; };
 		25D28D6115AA4EC000617B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25D28D6315AA4EC000617B84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25D28D6515AA4EC000617B84 /* DDTableViewPullRefresh-Prefix.pch */ = {isa = PBXFileReference; path = "DDTableViewPullRefresh-Prefix.pch"; sourceTree = "<group>"; };
-		25D28D6615AA4EC000617B84 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		25D28D6515AA4EC000617B84 /* DDTableViewPullRefresh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDTableViewPullRefresh-Prefix.pch"; sourceTree = "<group>"; };
+		25D28D6615AA4EC000617B84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25D28D6715AA4EC000617B84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25D28D6915AA4EC000617B84 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		25D28D6915AA4EC000617B84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		25D28D6A15AA4EC000617B84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25D28D6D15AA4EC000617B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		25D28D8515AA4F9000617B84 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		25D28D8615AA4F9000617B84 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		25D28D8715AA4F9000617B84 /* PullToRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshTableViewController.h; sourceTree = "<group>"; };
+		25D28D8815AA4F9000617B84 /* PullToRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshTableViewController.m; sourceTree = "<group>"; };
+		25D28D8A15AA4F9000617B84 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		25D28D8B15AA4F9000617B84 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		25D28D8C15AA4F9000617B84 /* blueArrow_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow_new.png; sourceTree = "<group>"; };
+		25D28D8D15AA4F9000617B84 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		25D28D9615AA501200617B84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D28D9715AA501200617B84 /* QuartzCore.framework in Frameworks */,
 				25D28D5815AA4EC000617B84 /* UIKit.framework in Frameworks */,
 				25D28D5A15AA4EC000617B84 /* Foundation.framework in Frameworks */,
 				25D28D5C15AA4EC000617B84 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +84,7 @@
 		25D28D5615AA4EC000617B84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25D28D9615AA501200617B84 /* QuartzCore.framework */,
 				25D28D5715AA4EC000617B84 /* UIKit.framework */,
 				25D28D5915AA4EC000617B84 /* Foundation.framework */,
 				25D28D5B15AA4EC000617B84 /* CoreGraphics.framework */,
@@ -77,6 +95,7 @@
 		25D28D5D15AA4EC000617B84 /* DDTableViewPullRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				25D28D8415AA4F9000617B84 /* PullToRefresh */,
 				25D28D6615AA4EC000617B84 /* AppDelegate.h */,
 				25D28D6715AA4EC000617B84 /* AppDelegate.m */,
 				25D28D6915AA4EC000617B84 /* ViewController.h */,
@@ -96,6 +115,29 @@
 				25D28D6515AA4EC000617B84 /* DDTableViewPullRefresh-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25D28D8415AA4F9000617B84 /* PullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				25D28D8715AA4F9000617B84 /* PullToRefreshTableViewController.h */,
+				25D28D8815AA4F9000617B84 /* PullToRefreshTableViewController.m */,
+				25D28D8515AA4F9000617B84 /* EGORefreshTableHeaderView.h */,
+				25D28D8615AA4F9000617B84 /* EGORefreshTableHeaderView.m */,
+				25D28D8915AA4F9000617B84 /* Resources */,
+			);
+			path = PullToRefresh;
+			sourceTree = "<group>";
+		};
+		25D28D8915AA4F9000617B84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25D28D8A15AA4F9000617B84 /* blackArrow.png */,
+				25D28D8B15AA4F9000617B84 /* blueArrow.png */,
+				25D28D8C15AA4F9000617B84 /* blueArrow_new.png */,
+				25D28D8D15AA4F9000617B84 /* whiteArrow.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +193,10 @@
 			files = (
 				25D28D6215AA4EC000617B84 /* InfoPlist.strings in Resources */,
 				25D28D6E15AA4EC000617B84 /* ViewController.xib in Resources */,
+				25D28D9015AA4F9000617B84 /* blackArrow.png in Resources */,
+				25D28D9115AA4F9000617B84 /* blueArrow.png in Resources */,
+				25D28D9215AA4F9000617B84 /* blueArrow_new.png in Resources */,
+				25D28D9315AA4F9000617B84 /* whiteArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +210,8 @@
 				25D28D6415AA4EC000617B84 /* main.m in Sources */,
 				25D28D6815AA4EC000617B84 /* AppDelegate.m in Sources */,
 				25D28D6B15AA4EC000617B84 /* ViewController.m in Sources */,
+				25D28D8E15AA4F9000617B84 /* EGORefreshTableHeaderView.m in Sources */,
+				25D28D8F15AA4F9000617B84 /* PullToRefreshTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
